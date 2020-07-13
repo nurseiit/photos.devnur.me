@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 
-interface AppProps {}
-
-function App({}: AppProps) {
+function App(): JSX.Element {
   const serverId = '65535';
   const id = '50062065332';
   const secret = 'ef4c069d2d';
@@ -11,7 +9,7 @@ function App({}: AppProps) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={flickrSrc} style={{ height: '80vmin' }} />
+        <img src={flickrSrc} style={{ height: '80vmin' }} alt="" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
