@@ -41,6 +41,12 @@
     "snowpack": "^2.6.4",
     "typescript": "^3.8.0"
   },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "tsc --noEmit && lint-staged"
