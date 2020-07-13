@@ -1,6 +1,13 @@
 {
+  "name": "photos.devnur.me",
+  "version": "0.0.1",
+  "description": "📸 Look at these photos I took. Client-Side React app that consumes Flickr API.",
+  "repository": "git@github.com:nurseiit/photos.devnur.me.git",
+  "author": "Nurseiit Abdimomyn <nurs@unist.ac.kr>",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "start": "snowpack dev",
+    "dev": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
